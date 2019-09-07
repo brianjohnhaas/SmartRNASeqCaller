@@ -10,7 +10,7 @@ ref: "/home/bhaas/CTAT_GENOMICS/GRCh37_gencode_v19_CTAT_lib_Aug152019.plug-n-pla
 ref_fai: "/home/bhaas/CTAT_GENOMICS/GRCh37_gencode_v19_CTAT_lib_Aug152019.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.fai"
 ref_dict: "/home/bhaas/CTAT_GENOMICS/GRCh37_gencode_v19_CTAT_lib_Aug152019.plug-n-play/ctat_genome_lib_build_dir/ref_genome.dict"
 repmask_bed: "resources/hg19/repmasker_hg19.bed.gz"
-intron_bed: "resources/hg19/intron_4bp_splice_overla.bed.gz"
+intron_bed: "resources/hg19/intron_4bp_splice_overlap.bed.gz"
 rnaedit_bed: "resources/hg19/merged_RNA_edit.bed.gz"
 model: "resources/RNA_Variant_RF_model.rds"
 
