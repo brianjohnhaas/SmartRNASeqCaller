@@ -388,7 +388,7 @@ step5_bam.into{step5_bam_1;step5_bam_2;step5_bam_3 }
        file fai_ref7   from ref_fai_7
        file dict_ref7  from ref_dict_7
     output:
-      
+       file("Step9_input.vcf")      
       
     script:
     """
