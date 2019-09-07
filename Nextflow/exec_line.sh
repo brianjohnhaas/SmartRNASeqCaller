@@ -6,3 +6,6 @@ nextflow run -w tmpdir -params-file params.yaml SmartRNASeqCaller_pipeline.nf
 nextflow run -w tmpdir -params-file params.yaml SmartRNASeqCaller_pipeline.nf -profile docker
 
 
+
+########   must include -c nextflow.config  !!   for docker
+

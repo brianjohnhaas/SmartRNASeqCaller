@@ -1,0 +1,25 @@
+## Input data and prefix ##
+bam: "tmp.bam"
+bai: "tmp.bam.bai"
+outdir : "results"
+SAMPLEID: "SampleID"
+RGLB: 'library'
+RGPL: 'platform'
+RGPU: 'machine'
+
+## Overall reference resources
+ref: "/home/bhaas/CTAT_GENOMICS/GRCh37_gencode_v19_CTAT_lib_Aug152019.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa"
+ref_fai: "/home/bhaas/CTAT_GENOMICS/GRCh37_gencode_v19_CTAT_lib_Aug152019.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa.fai"
+ref_dict: "/home/bhaas/CTAT_GENOMICS/GRCh37_gencode_v19_CTAT_lib_Aug152019.plug-n-play/ctat_genome_lib_build_dir/ref_genome.dict"
+DBSNP: "/home/bhaas/CTAT_GENOMICS/GRCh37_gencode_v19_CTAT_lib_Mar272019.plug-n-play/ctat_genome_lib_build_dir/ctat_mutation_lib/dbsnp.vcf"
+DBINDEL: "/home/bhaas/CTAT_GENOMICS/GRCh37_gencode_v19_CTAT_lib_Mar272019.plug-n-play/ctat_genome_lib_build_dir/ctat_mutation_lib/1000G_phase1.indels.hg19.sites.vcf"
+
+## paths to tools
+#GATK: "/home/mbosio/software/GATK/GATK_3.6.0/GenomeAnalysisTK.jar"
+GATK: "/usr/GenomeAnalysisTK.jar"
+#PICARD: "/home/mbosio/software/Picard/picard.jar"
+PICARD: "/usr/picard/picard.jar"
+# Path to SmartRNASeqCaller
+# code_path: "/home/mbosio/projects/RD_connect_rnaseq/"
+code_path: "/opt/RD_connect_rnaseq/"
+

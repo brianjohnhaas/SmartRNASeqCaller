@@ -1,0 +1,9 @@
+derived from: git@github.com:inab/RDConnect_RNASeq.git
+
+# build gatk singularity image
+singularity build broadinstitute.gatk.v3.6.0.simg docker://broadinstitute/gatk3:3.6-0
+
+# build smartRNAseqCaller singularity image
+docker tag smartrnaseqcaller:latest bhaastestdockers/smartrnaseqcaller:latest
+docker push bhaastestdockers/smartrnaseqcaller:latest
+
